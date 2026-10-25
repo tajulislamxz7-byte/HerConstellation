@@ -1,0 +1,8 @@
+{
+  "name": "app-site",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node test/static-checks.mjs && node --import ./test/register.mjs test/run.mjs" },
+  "dependencies": { "@netlify/blobs": "^8.1.0" }
+}
